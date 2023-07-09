@@ -155,7 +155,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header.jpeg');
     text-align: center;
     color: white;
     .header-content {
@@ -202,6 +202,17 @@ header {
                 }
             }
         }
+    }
+}
+
+.header-container {
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+    
+    @media (min-width: 768px) {
+        position: absolute;
+        height: 100%;
+        width: 100%;
     }
 }
 

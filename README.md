@@ -12,3 +12,11 @@ See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 - Start by adding your info in `_config.yml`
 - In `_layouts/front.html` reorder or remove section as you prefer.
 
+
+## Installation
+### Running locally
+Assuming you've got Jekyll [installed](https://jekyllrb.com/docs/installation/), clone or download this repo, `cd` to wherever you've put `dactl` folder and run `bundle exec jekyll s'`
+
+### Hosting on GitHub
+Fork this repo and rename it to `yourusername.github.io`... and that's it!  
+Your new dactl-themed Jekyll blog should be up and running at yourusername.github.io.  
